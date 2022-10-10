@@ -54,7 +54,7 @@ console.log(numbers);
 // ==========================================
 
 const squares = [30, 2, 8, 24, 11];
-
+console.log(squares);
 for (let i=0;i<squares.length;i++) {
     let volume = squares[i]**3;
     squares[i] = "het volume van " + squares [i] + " is " + volume;
